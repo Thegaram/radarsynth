@@ -1,0 +1,19 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2013
+Project("{5D22ACDD-4690-AD4B-80F1-9D8291503BB7}") = "DrawGridComponent", "DrawGridComponent.vcxproj", "{37E19A4B-82C9-22B9-8182-124EE1A43954}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{37E19A4B-82C9-22B9-8182-124EE1A43954}.Debug|Win32.ActiveCfg = Debug|Win32
+		{37E19A4B-82C9-22B9-8182-124EE1A43954}.Debug|Win32.Build.0 = Debug|Win32
+		{37E19A4B-82C9-22B9-8182-124EE1A43954}.Release|Win32.ActiveCfg = Release|Win32
+		{37E19A4B-82C9-22B9-8182-124EE1A43954}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

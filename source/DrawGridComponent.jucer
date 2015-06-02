@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="sQKbuB" name="DrawGridComponent" projectType="guiapp" version="1.0.0"
+              bundleIdentifier="com.yourcompany.DrawGridComponent" includeBinaryInAppConfig="1"
+              jucerVersion="3.1.0">
+  <MAINGROUP id="uiS97D" name="DrawGridComponent">
+    <GROUP id="{E37FB02C-606C-1E22-CA63-961486A2C4BC}" name="Source">
+      <FILE id="H7wrUH" name="DrawGridComponent.cpp" compile="1" resource="0"
+            file="Source/DrawGridComponent.cpp"/>
+      <FILE id="rHxLcJ" name="DrawGridComponent.h" compile="0" resource="0"
+            file="Source/DrawGridComponent.h"/>
+      <FILE id="vL6nLc" name="MatrixValueStore.h" compile="1" resource="0"
+            file="Source/MatrixValueStore.h"/>
+      <FILE id="DgLcHR" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+      <FILE id="Vwx1Ft" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="UCgemK" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <VS2013 targetFolder="Builds/VisualStudio2013">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="1" optimisation="1" targetName="DrawGridComponent"/>
+        <CONFIGURATION name="Release" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="0" optimisation="2" targetName="DrawGridComponent"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../../JUCE-WINDOWS/modules"/>
+        <MODULEPATH id="juce_events" path="../../../JUCE-WINDOWS/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../JUCE-WINDOWS/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../JUCE-WINDOWS/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../JUCE-WINDOWS/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../JUCE-WINDOWS/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../../JUCE-WINDOWS/modules"/>
+        <MODULEPATH id="juce_video" path="../../../JUCE-WINDOWS/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../../JUCE-WINDOWS/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../../JUCE-WINDOWS/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../JUCE-WINDOWS/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../JUCE-WINDOWS/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../JUCE-WINDOWS/modules"/>
+      </MODULEPATHS>
+    </VS2013>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULES id="juce_audio_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_audio_devices" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_audio_formats" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_audio_processors" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_core" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_cryptography" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_data_structures" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_events" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_graphics" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_gui_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_gui_extra" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_opengl" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_video" showAllCode="1" useLocalCopy="0"/>
+  </MODULES>
+  <JUCEOPTIONS/>
+</JUCERPROJECT>
